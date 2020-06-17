@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+section {
+  width: 100%;
+  article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.75rem;
+    border-bottom: 1px solid black;
+    button{
+      height: 1.5rem;
+    }
+  }
+}
